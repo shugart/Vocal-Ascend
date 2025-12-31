@@ -9,22 +9,34 @@
 /* Begin PBXBuildFile section */
 		01FB6D5C018C5B82C04D3BF2 /* ExerciseAttempt.swift in Sources */ = {isa = PBXBuildFile; fileRef = E0E55761B2205AE6191CD474 /* ExerciseAttempt.swift */; };
 		04C1172F1CF355853262E525 /* RootTabView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1465D4D16064CDE97D4F76A1 /* RootTabView.swift */; };
+		089BE600E8EC6E8243426A74 /* OfflineFeedbackGenerator.swift in Sources */ = {isa = PBXBuildFile; fileRef = AD03C958EDA81D557F13F904 /* OfflineFeedbackGenerator.swift */; };
 		15FF65C0457D172B0D9DEA75 /* VoiceProfile.swift in Sources */ = {isa = PBXBuildFile; fileRef = 60BA3315AADA8A70D8FBA93D /* VoiceProfile.swift */; };
+		17811AAD46AE702EEABC609F /* PromptBuilder.swift in Sources */ = {isa = PBXBuildFile; fileRef = A35B08DE4C5E698F11B7C777 /* PromptBuilder.swift */; };
 		1BE3163145BFC456101E549B /* TrainView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 9469012D0B1F24FE90B133E1 /* TrainView.swift */; };
 		256D44B01092163AEE963E8C /* PitchDetector.swift in Sources */ = {isa = PBXBuildFile; fileRef = AAE9D7F206B127AE635CA6AC /* PitchDetector.swift */; };
 		2EB752D1EF529A11B61A5138 /* exercises.json in Resources */ = {isa = PBXBuildFile; fileRef = 72E743601178F01A09C3249E /* exercises.json */; };
+		31115BE60D665C8609F277F6 /* ProgressionGateEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = A6C64E0DEC58467B128C65A6 /* ProgressionGateEvaluator.swift */; };
+		331B289A198E3D649B5D5CAF /* StrainRiskEvaluator.swift in Sources */ = {isa = PBXBuildFile; fileRef = 71F1E286B51B918EC87630D0 /* StrainRiskEvaluator.swift */; };
 		3CC38C7A0093157615B13E10 /* DSPUtils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7E89F44351CFFBB6B1D6164D /* DSPUtils.swift */; };
 		4776BD412E4490B4EA7A6990 /* UserPlanProgress.swift in Sources */ = {isa = PBXBuildFile; fileRef = E82F7BED67A706CF6C01C81D /* UserPlanProgress.swift */; };
 		4DFBC10FFD8C3CBE11985417 /* PitchView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D9CB17D43D9F113D0475B044 /* PitchView.swift */; };
+		50585740442A93232D78FBAD /* AIResponseParser.swift in Sources */ = {isa = PBXBuildFile; fileRef = B9F5B4C25F3BA8F77DF06968 /* AIResponseParser.swift */; };
+		5242265B81595A9C6FCA2120 /* SessionSummaryView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5CE62E1FE357B96215CE7280 /* SessionSummaryView.swift */; };
+		544F5E1DFB9184EBB6B060DE /* CalibrationFlow.swift in Sources */ = {isa = PBXBuildFile; fileRef = 0364845F9BE6EB2293339332 /* CalibrationFlow.swift */; };
+		5538FE587E24FFCF86437071 /* ExerciseEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 746A90298CD7BA4F2A3876DD /* ExerciseEngine.swift */; };
+		588E58239EC344374B64B49B /* ActiveExerciseView.swift in Sources */ = {isa = PBXBuildFile; fileRef = E018FE1060F818EB0577038C /* ActiveExerciseView.swift */; };
 		6492B86B1117C143191F3F93 /* VocalAscendApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7785A8AECD17161710B2EB1F /* VocalAscendApp.swift */; };
 		69EBCE3466EBC2ED0951707F /* StabilityMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 40EBC77AE506C3731B6260C4 /* StabilityMeterView.swift */; };
 		756950257008112AC93E1343 /* ExerciseLoader.swift in Sources */ = {isa = PBXBuildFile; fileRef = 65FF8B763B5229048B093CBF /* ExerciseLoader.swift */; };
 		7D3A88D7DBC31E2207AB6FFC /* VocalProgressView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7EFBB097F1864D1DD98C1DC0 /* VocalProgressView.swift */; };
+		8672AE06C106CAD2F997DA4A /* ExerciseRatingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = FA68E96B78779689B6DF1412 /* ExerciseRatingView.swift */; };
 		920E0536FF3C9F0C19CBEC78 /* SettingsView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3F48AE2CB2BC04068DFEE0C7 /* SettingsView.swift */; };
+		993A65CC80BC5CF20E9A51B3 /* NotificationService.swift in Sources */ = {isa = PBXBuildFile; fileRef = E303EECCE122B857E8E56D1E /* NotificationService.swift */; };
 		A2056BBE6FB120EECF98081A /* VolumeMeterView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1C1C9E76F34BBA9F018967C3 /* VolumeMeterView.swift */; };
 		A86181C485EAB4004DBF125D /* AICoachMessage.swift in Sources */ = {isa = PBXBuildFile; fileRef = D6F545D245F4B921C098D58B /* AICoachMessage.swift */; };
 		ACD4E54F977ABCC2BF6EAEFA /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 4FF310004760975CBDE65274 /* Assets.xcassets */; };
 		BA3FFC87A8E4007E27B0ECF7 /* CoachView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B2C2461E9AE1E1B7024A9840 /* CoachView.swift */; };
+		C64D0919D8F63E4BDB339EEE /* SessionPlanner.swift in Sources */ = {isa = PBXBuildFile; fileRef = 5759C65CE3B5559AA4C41874 /* SessionPlanner.swift */; };
 		CACA29EB57755DCDC6956701 /* SessionLog.swift in Sources */ = {isa = PBXBuildFile; fileRef = 6CA835899D9580B4F1434B6C /* SessionLog.swift */; };
 		CDFFA588EBE6FD54EC22D6F1 /* AudioEngine.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B261C915712130D674B5357 /* AudioEngine.swift */; };
 		D377978EA5097881F1FE4489 /* ExerciseDefinition.swift in Sources */ = {isa = PBXBuildFile; fileRef = A960DA8D19329CBB6C1BD311 /* ExerciseDefinition.swift */; };
@@ -32,6 +44,7 @@
 		D94AFE1A4575A2B5869F00D2 /* templates.json in Resources */ = {isa = PBXBuildFile; fileRef = 79B662717F596ABF2574094D /* templates.json */; };
 		DDC65D778E6B1A6AF62254A0 /* PitchDetectorTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = 3B1FA6358C480AA6C0BBFAB5 /* PitchDetectorTests.swift */; };
 		DE9A01A3EACBD360B7AD1CDA /* MusicTypes.swift in Sources */ = {isa = PBXBuildFile; fileRef = D0EA848F2D73705B0CDD65DC /* MusicTypes.swift */; };
+		E71B509403EFAF4809581762 /* OpenAIService.swift in Sources */ = {isa = PBXBuildFile; fileRef = A17CE245B266750850DD52F5 /* OpenAIService.swift */; };
 		E7367081D7CF6F5CF62FBA2C /* TargetNotePickerView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 86B11590F514DD061CD3857F /* TargetNotePickerView.swift */; };
 		ECFED77332DB1A2B89E7A266 /* PitchIndicatorView.swift in Sources */ = {isa = PBXBuildFile; fileRef = 952F26605C73FE81A34AA0A8 /* PitchIndicatorView.swift */; };
 		FD458FFB037202F93649C55E /* plans.json in Resources */ = {isa = PBXBuildFile; fileRef = 0B26D3498D1753367E69E20E /* plans.json */; };
@@ -48,6 +61,7 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0364845F9BE6EB2293339332 /* CalibrationFlow.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CalibrationFlow.swift; sourceTree = "<group>"; };
 		036C6980C651FC0709CB6862 /* VocalAscend.app */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.application; path = VocalAscend.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		0B26D3498D1753367E69E20E /* plans.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = plans.json; sourceTree = "<group>"; };
 		1465D4D16064CDE97D4F76A1 /* RootTabView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RootTabView.swift; sourceTree = "<group>"; };
@@ -58,11 +72,15 @@
 		40EBC77AE506C3731B6260C4 /* StabilityMeterView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StabilityMeterView.swift; sourceTree = "<group>"; };
 		49B14A9D4A1BBA045087AA84 /* VocalAscendTests.xctest */ = {isa = PBXFileReference; includeInIndex = 0; lastKnownFileType = wrapper.cfbundle; path = VocalAscendTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		4FF310004760975CBDE65274 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		5759C65CE3B5559AA4C41874 /* SessionPlanner.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionPlanner.swift; sourceTree = "<group>"; };
+		5CE62E1FE357B96215CE7280 /* SessionSummaryView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionSummaryView.swift; sourceTree = "<group>"; };
 		5E904225C260767903AC284F /* VocalAscend.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = VocalAscend.entitlements; sourceTree = "<group>"; };
 		60BA3315AADA8A70D8FBA93D /* VoiceProfile.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VoiceProfile.swift; sourceTree = "<group>"; };
 		65FF8B763B5229048B093CBF /* ExerciseLoader.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseLoader.swift; sourceTree = "<group>"; };
 		6CA835899D9580B4F1434B6C /* SessionLog.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SessionLog.swift; sourceTree = "<group>"; };
+		71F1E286B51B918EC87630D0 /* StrainRiskEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StrainRiskEvaluator.swift; sourceTree = "<group>"; };
 		72E743601178F01A09C3249E /* exercises.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = exercises.json; sourceTree = "<group>"; };
+		746A90298CD7BA4F2A3876DD /* ExerciseEngine.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseEngine.swift; sourceTree = "<group>"; };
 		7785A8AECD17161710B2EB1F /* VocalAscendApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = VocalAscendApp.swift; sourceTree = "<group>"; };
 		79B662717F596ABF2574094D /* templates.json */ = {isa = PBXFileReference; lastKnownFileType = text.json; path = templates.json; sourceTree = "<group>"; };
 		7E89F44351CFFBB6B1D6164D /* DSPUtils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DSPUtils.swift; sourceTree = "<group>"; };
@@ -70,16 +88,24 @@
 		86B11590F514DD061CD3857F /* TargetNotePickerView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TargetNotePickerView.swift; sourceTree = "<group>"; };
 		9469012D0B1F24FE90B133E1 /* TrainView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = TrainView.swift; sourceTree = "<group>"; };
 		952F26605C73FE81A34AA0A8 /* PitchIndicatorView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchIndicatorView.swift; sourceTree = "<group>"; };
+		A17CE245B266750850DD52F5 /* OpenAIService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OpenAIService.swift; sourceTree = "<group>"; };
+		A35B08DE4C5E698F11B7C777 /* PromptBuilder.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PromptBuilder.swift; sourceTree = "<group>"; };
+		A6C64E0DEC58467B128C65A6 /* ProgressionGateEvaluator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ProgressionGateEvaluator.swift; sourceTree = "<group>"; };
 		A960DA8D19329CBB6C1BD311 /* ExerciseDefinition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseDefinition.swift; sourceTree = "<group>"; };
 		AAE9D7F206B127AE635CA6AC /* PitchDetector.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchDetector.swift; sourceTree = "<group>"; };
+		AD03C958EDA81D557F13F904 /* OfflineFeedbackGenerator.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = OfflineFeedbackGenerator.swift; sourceTree = "<group>"; };
 		B2C2461E9AE1E1B7024A9840 /* CoachView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CoachView.swift; sourceTree = "<group>"; };
+		B9F5B4C25F3BA8F77DF06968 /* AIResponseParser.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AIResponseParser.swift; sourceTree = "<group>"; };
 		D0EA848F2D73705B0CDD65DC /* MusicTypes.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MusicTypes.swift; sourceTree = "<group>"; };
 		D6F545D245F4B921C098D58B /* AICoachMessage.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AICoachMessage.swift; sourceTree = "<group>"; };
 		D8960346CE68261CC0BDB887 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
 		D9CB17D43D9F113D0475B044 /* PitchView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PitchView.swift; sourceTree = "<group>"; };
+		E018FE1060F818EB0577038C /* ActiveExerciseView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ActiveExerciseView.swift; sourceTree = "<group>"; };
 		E0E55761B2205AE6191CD474 /* ExerciseAttempt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseAttempt.swift; sourceTree = "<group>"; };
+		E303EECCE122B857E8E56D1E /* NotificationService.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = NotificationService.swift; sourceTree = "<group>"; };
 		E82F7BED67A706CF6C01C81D /* UserPlanProgress.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = UserPlanProgress.swift; sourceTree = "<group>"; };
 		EC3262270F90BD51A48EA48E /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		FA68E96B78779689B6DF1412 /* ExerciseRatingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ExerciseRatingView.swift; sourceTree = "<group>"; };
 		FE55A440A482380ABF4890B4 /* AudioSessionManager.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AudioSessionManager.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -87,7 +113,12 @@
 		047D5DDBC312FAB887001612 /* Training */ = {
 			isa = PBXGroup;
 			children = (
+				0364845F9BE6EB2293339332 /* CalibrationFlow.swift */,
+				746A90298CD7BA4F2A3876DD /* ExerciseEngine.swift */,
 				65FF8B763B5229048B093CBF /* ExerciseLoader.swift */,
+				A6C64E0DEC58467B128C65A6 /* ProgressionGateEvaluator.swift */,
+				5759C65CE3B5559AA4C41874 /* SessionPlanner.swift */,
+				71F1E286B51B918EC87630D0 /* StrainRiskEvaluator.swift */,
 			);
 			path = Training;
 			sourceTree = "<group>";
@@ -175,6 +206,9 @@
 		937550AEA9682C10D0074143 /* AI */ = {
 			isa = PBXGroup;
 			children = (
+				B9F5B4C25F3BA8F77DF06968 /* AIResponseParser.swift */,
+				A17CE245B266750850DD52F5 /* OpenAIService.swift */,
+				A35B08DE4C5E698F11B7C777 /* PromptBuilder.swift */,
 			);
 			path = AI;
 			sourceTree = "<group>";
@@ -182,6 +216,9 @@
 		B622A896F5C33A35F7FF7E8D /* Train */ = {
 			isa = PBXGroup;
 			children = (
+				E018FE1060F818EB0577038C /* ActiveExerciseView.swift */,
+				FA68E96B78779689B6DF1412 /* ExerciseRatingView.swift */,
+				5CE62E1FE357B96215CE7280 /* SessionSummaryView.swift */,
 				9469012D0B1F24FE90B133E1 /* TrainView.swift */,
 			);
 			path = Train;
@@ -198,6 +235,8 @@
 		C82B2F003F72090D51671F89 /* Services */ = {
 			isa = PBXGroup;
 			children = (
+				E303EECCE122B857E8E56D1E /* NotificationService.swift */,
+				AD03C958EDA81D557F13F904 /* OfflineFeedbackGenerator.swift */,
 				937550AEA9682C10D0074143 /* AI */,
 			);
 			path = Services;
@@ -349,21 +388,34 @@
 			buildActionMask = 2147483647;
 			files = (
 				A86181C485EAB4004DBF125D /* AICoachMessage.swift in Sources */,
+				50585740442A93232D78FBAD /* AIResponseParser.swift in Sources */,
+				588E58239EC344374B64B49B /* ActiveExerciseView.swift in Sources */,
 				CDFFA588EBE6FD54EC22D6F1 /* AudioEngine.swift in Sources */,
 				D50E6332A4FA7EB6B773655B /* AudioSessionManager.swift in Sources */,
+				544F5E1DFB9184EBB6B060DE /* CalibrationFlow.swift in Sources */,
 				BA3FFC87A8E4007E27B0ECF7 /* CoachView.swift in Sources */,
 				3CC38C7A0093157615B13E10 /* DSPUtils.swift in Sources */,
 				01FB6D5C018C5B82C04D3BF2 /* ExerciseAttempt.swift in Sources */,
 				D377978EA5097881F1FE4489 /* ExerciseDefinition.swift in Sources */,
+				5538FE587E24FFCF86437071 /* ExerciseEngine.swift in Sources */,
 				756950257008112AC93E1343 /* ExerciseLoader.swift in Sources */,
+				8672AE06C106CAD2F997DA4A /* ExerciseRatingView.swift in Sources */,
 				DE9A01A3EACBD360B7AD1CDA /* MusicTypes.swift in Sources */,
+				993A65CC80BC5CF20E9A51B3 /* NotificationService.swift in Sources */,
+				089BE600E8EC6E8243426A74 /* OfflineFeedbackGenerator.swift in Sources */,
+				E71B509403EFAF4809581762 /* OpenAIService.swift in Sources */,
 				256D44B01092163AEE963E8C /* PitchDetector.swift in Sources */,
 				ECFED77332DB1A2B89E7A266 /* PitchIndicatorView.swift in Sources */,
 				4DFBC10FFD8C3CBE11985417 /* PitchView.swift in Sources */,
+				31115BE60D665C8609F277F6 /* ProgressionGateEvaluator.swift in Sources */,
+				17811AAD46AE702EEABC609F /* PromptBuilder.swift in Sources */,
 				04C1172F1CF355853262E525 /* RootTabView.swift in Sources */,
 				CACA29EB57755DCDC6956701 /* SessionLog.swift in Sources */,
+				C64D0919D8F63E4BDB339EEE /* SessionPlanner.swift in Sources */,
+				5242265B81595A9C6FCA2120 /* SessionSummaryView.swift in Sources */,
 				920E0536FF3C9F0C19CBEC78 /* SettingsView.swift in Sources */,
 				69EBCE3466EBC2ED0951707F /* StabilityMeterView.swift in Sources */,
+				331B289A198E3D649B5D5CAF /* StrainRiskEvaluator.swift in Sources */,
 				E7367081D7CF6F5CF62FBA2C /* TargetNotePickerView.swift in Sources */,
 				1BE3163145BFC456101E549B /* TrainView.swift in Sources */,
 				4776BD412E4490B4EA7A6990 /* UserPlanProgress.swift in Sources */,

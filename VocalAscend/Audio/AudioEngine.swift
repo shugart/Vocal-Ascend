@@ -45,14 +45,23 @@ final class AudioEngine: ObservableObject {
 
     // MARK: - Public Methods
 
+    /// Track if we're in the process of starting
+    private var isStarting = false
+
     /// Start audio capture and pitch detection
     func start() {
-        guard !isRunning else { return }
+        guard !isRunning && !isStarting else {
+            print("[AudioEngine] Already running or starting")
+            return
+        }
+
+        isStarting = true
 
         Task {
             // Request microphone permission
             guard await sessionManager.requestMicrophonePermission() else {
                 print("[AudioEngine] No microphone permission")
+                await MainActor.run { isStarting = false }
                 return
             }
 
@@ -61,12 +70,14 @@ final class AudioEngine: ObservableObject {
                 try sessionManager.configure()
             } catch {
                 print("[AudioEngine] Failed to configure session: \(error)")
+                await MainActor.run { isStarting = false }
                 return
             }
 
             // Start engine on main thread
             await MainActor.run {
                 startEngine()
+                isStarting = false
             }
         }
     }
@@ -95,6 +106,9 @@ final class AudioEngine: ObservableObject {
         }
 
         print("[AudioEngine] Input format: \(inputFormat)")
+
+        // Remove any existing tap before installing a new one
+        inputNode.removeTap(onBus: 0)
 
         // Calculate buffer size for ~30fps updates
         // 44100 / 30 ≈ 1470 samples per buffer

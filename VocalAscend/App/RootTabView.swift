@@ -20,7 +20,7 @@ struct RootTabView: View {
                     Label("Coach", systemImage: "message")
                 }
 
-            ProgressView()
+            VocalProgressView()
                 .tabItem {
                     Label("Progress", systemImage: "chart.line.uptrend.xyaxis")
                 }

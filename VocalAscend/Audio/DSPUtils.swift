@@ -18,7 +18,7 @@ enum DSPUtils {
     /// Convert RMS to dBFS (decibels relative to full scale)
     /// Full scale is 1.0, so dBFS = 20 * log10(rms)
     static func rmsToDBFS(_ rms: Float) -> Float {
-        guard rms > 0 else { return -Float.infinity }
+        guard rms > 0 else { return -60 }  // Return -60 for silence instead of -infinity
         let dbfs = 20.0 * log10(rms)
         // Clamp to reasonable range
         return max(-60, min(0, dbfs))

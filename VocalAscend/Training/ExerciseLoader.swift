@@ -13,7 +13,9 @@ final class ExerciseLoader {
     private var planById: [String: TrainingPlan] = [:]
 
     private init() {
+        print("[ExerciseLoader] Initializing singleton...")
         loadAllResources()
+        print("[ExerciseLoader] Initialization complete: \(exercises.count) exercises, \(templates.count) templates, \(plans.count) plans")
     }
 
     // MARK: - Loading
