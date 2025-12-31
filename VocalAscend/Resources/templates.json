@@ -1,0 +1,62 @@
+{
+  "schema_version": "1.0.0",
+  "templates": [
+    {
+      "id": "tpl_warmup_standard_6min",
+      "name": "Standard Warmup (6 min)",
+      "estimated_minutes": 6,
+      "steps": [
+        { "exercise_id": "ex_breath_360_expand" },
+        { "exercise_id": "ex_lip_trill_5tone" },
+        { "exercise_id": "ex_hum_mm_3note" }
+      ]
+    },
+    {
+      "id": "tpl_mix_builder_8min",
+      "name": "Mix Builder (8 min)",
+      "estimated_minutes": 8,
+      "steps": [
+        { "exercise_id": "ex_ng_sirens" },
+        { "exercise_id": "ex_nei_twang_5tone" },
+        { "exercise_id": "ex_1_3_5_8_arpeggio" }
+      ]
+    },
+    {
+      "id": "tpl_belt_extension_8min",
+      "name": "Belt Extension (8 min)",
+      "estimated_minutes": 8,
+      "steps": [
+        { "exercise_id": "ex_gee_onsets" },
+        { "exercise_id": "ex_guh_belt_bridge" },
+        { "exercise_id": "ex_vowel_narrowing_ah_to_uh" }
+      ]
+    },
+    {
+      "id": "tpl_high_note_skill_6min",
+      "name": "High Note Skill (6 min)",
+      "estimated_minutes": 6,
+      "steps": [
+        { "exercise_id": "ex_sirens_quiet_to_target" },
+        { "exercise_id": "ex_hold_target_note" }
+      ]
+    },
+    {
+      "id": "tpl_belt_phrase_6min",
+      "name": "Belt Phrase Control (6 min)",
+      "estimated_minutes": 6,
+      "steps": [
+        { "exercise_id": "ex_staccato_pops" },
+        { "exercise_id": "ex_belt_phrase_2sec" }
+      ]
+    },
+    {
+      "id": "tpl_recovery_cooldown_only",
+      "name": "Recovery + Cooldown (5 min)",
+      "estimated_minutes": 5,
+      "steps": [
+        { "exercise_id": "ex_recovery_hums" },
+        { "exercise_id": "ex_cooldown_sovt" }
+      ]
+    }
+  ]
+}

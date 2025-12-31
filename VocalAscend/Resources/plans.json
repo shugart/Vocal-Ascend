@@ -1,0 +1,186 @@
+{
+  "schema_version": "1.0.0",
+  "plans": [
+    {
+      "id": "plan_12wk_asharp4",
+      "name": "12-Week A#4 Plan",
+      "goal_note": "A#4",
+      "recommended_days_per_week": 5,
+      "max_session_minutes": 25,
+      "phases": [
+        {
+          "phase_id": "p1_weeks_1_4",
+          "name": "Phase 1: Mix Foundation (Weeks 1–4)",
+          "goal": "Stabilize F#4–G4 with easy mix, reduce chest-pull, establish safe vowel narrowing.",
+          "weeks": [1, 2, 3, 4],
+          "weekly_structure": {
+            "day1": {
+              "type": "build",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_mix_builder_8min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day2": {
+              "type": "build",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_mix_builder_8min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day3": {
+              "type": "light",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_mix_builder_8min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day4": {
+              "type": "build",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_mix_builder_8min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day5": {
+              "type": "assessment",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            }
+          },
+          "targets": {
+            "primary_note": "G4",
+            "secondary_note": "G#4",
+            "allowed_top_note_cap": "G#4",
+            "preferred_vowels_high": ["UH", "OH", "EH"]
+          }
+        },
+        {
+          "phase_id": "p2_weeks_5_8",
+          "name": "Phase 2: Extend to A4 (Weeks 5–8)",
+          "goal": "Build consistent A4 mix/belt-bridge with controlled volume and vowel modifications.",
+          "weeks": [5, 6, 7, 8],
+          "weekly_structure": {
+            "day1": {
+              "type": "build",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_mix_builder_8min",
+                "tpl_belt_extension_8min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day2": {
+              "type": "build",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_mix_builder_8min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day3": {
+              "type": "light",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_mix_builder_8min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day4": {
+              "type": "build",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_belt_extension_8min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day5": {
+              "type": "assessment",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            }
+          },
+          "targets": {
+            "primary_note": "A4",
+            "secondary_note": "G#4",
+            "allowed_top_note_cap": "A4",
+            "preferred_vowels_high": ["UH", "EH", "OH"]
+          }
+        },
+        {
+          "phase_id": "p3_weeks_9_12",
+          "name": "Phase 3: A#4 Coordination + Consistency (Weeks 9–12)",
+          "goal": "Introduce A#4 in short, safe doses, progressing to consistent 2–3 second stable attempts.",
+          "weeks": [9, 10, 11, 12],
+          "weekly_structure": {
+            "day1": {
+              "type": "build",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_belt_extension_8min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day2": {
+              "type": "build",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_mix_builder_8min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day3": {
+              "type": "light",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_mix_builder_8min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day4": {
+              "type": "performance",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_belt_phrase_6min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            },
+            "day5": {
+              "type": "assessment",
+              "session_template_ids": [
+                "tpl_warmup_standard_6min",
+                "tpl_high_note_skill_6min",
+                "tpl_recovery_cooldown_only"
+              ]
+            }
+          },
+          "targets": {
+            "primary_note": "A#4",
+            "secondary_note": "A4",
+            "allowed_top_note_cap": "A#4",
+            "preferred_vowels_high": ["UH", "EH", "OH"],
+            "daily_asharp_attempt_cap": 8
+          }
+        }
+      ]
+    }
+  ]
+}
